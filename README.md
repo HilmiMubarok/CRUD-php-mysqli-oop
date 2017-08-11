@@ -15,4 +15,4 @@ Membuat CRUD dengan php mysqli oop dan prepare statement
 ## Contact
 * Gmail         : m.hilmimubarok@gmail.com
 * Wa & Telegram : 085877690812
-* Twitter       : [Hilmi Mubarok](https://twitter.com/Hilmi_mubarok17)@Hilmi_mubarok17
+* Twitter       : [Hilmi Mubarok](https://twitter.com/Hilmi_mubarok17)
