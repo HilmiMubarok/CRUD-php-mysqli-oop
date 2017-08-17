@@ -13,14 +13,14 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Edit <?php echo $row['nama']; ?></title>
+	<title>Edit <?= $row['nama']; ?></title>
 </head>
 <body>
-	Edit untuk <?php echo $row['nama']; ?>
+	Edit untuk <?= $row['nama']; ?>
 	<form method="post">
-		<input type="text" name="nama" value="<?php echo $row['nama']; ?>"> <br>
-		<input type="email" name="email" value="<?php echo $row['email']; ?>"> <br>
-		<textarea name="alamat" rows="10"><?php echo $row['alamat'] ?></textarea> <br>
+		<input type="text" name="nama" value="<?= $row['nama']; ?>"> <br>
+		<input type="email" name="email" value="<?= $row['email']; ?>"> <br>
+		<textarea name="alamat" rows="10"><?= $row['alamat'] ?></textarea> <br>
 		<input type="submit" name="btn" value="Update">
 	</form>
 

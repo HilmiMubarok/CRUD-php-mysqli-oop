@@ -11,7 +11,7 @@
 	$pre = $conn->prepare("DELETE FROM coba WHERE id = ?");
 	$pre->bind_param("i", $id);
 	$pre->execute();
-	echo "Sukses Menghapus ". $row['nama'];
+	echo "Sedang Menghapus ". $row['nama']."...";
 	echo "<meta http-equiv='refresh' content='1;url=insert.php'>";
 	$pre->close();
 	$conn->close();
