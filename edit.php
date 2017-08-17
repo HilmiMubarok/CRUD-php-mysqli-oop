@@ -24,18 +24,18 @@
 		<input type="submit" name="btn" value="Update">
 	</form>
 
-	<?php 
+	<?php
 		if (isset($_POST['btn'])) {
 			$pre    = $conn->prepare("UPDATE coba SET nama = ?, email = ?, alamat = ? WHERE id = ? ");
 			$pre->bind_param("sssi", $nama, $email, $alamat, $id);
-			
+
 			$nama   = $_POST['nama'];
 			$email  = $_POST['email'];
 			$alamat = $_POST['alamat'];
 
 			$pre->execute();
 
-			echo "Sukses";
+			echo "Edit Sukses";
 			echo "<meta http-equiv='refresh' content='1;url=insert.php'>";
 
 			$pre->close();
