@@ -34,8 +34,7 @@
 			$alamat = $_POST['alamat'];
 
 			$pre->execute();
-
-			echo "Edit Sukses";
+			echo "Sukses";
 			echo "<meta http-equiv='refresh' content='1;url=insert.php'>";
 
 			$pre->close();
