@@ -34,7 +34,7 @@
 		<tr>
 			<td><?= $row["nama"]; ?></td>
 			<td><?= $row["email"]; ?></td>
-			<td><?= $row["alamat"]; ?></td>
+			<td><?= $row["address"]; ?></td>
 			<td>
 				<a href="edit.php?<?= md5("id"); ?>=<?= base64_encode($row["id"]); ?>">Edit</a>
 				<a href="hapus.php?<?= md5("id"); ?>=<?= base64_encode($row["id"]); ?>" onclick="return confirm('Yakin Ingin Hapus ?')">Hapus</a>
