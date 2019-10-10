@@ -6,6 +6,7 @@
 	<title>Insert</title>
 </head>
 <body>
+	<h3>Insert Data</h3>
 	<form method="post">
 		<input type="text" name="nama" placeholder="nama" required> <br>
 		<input type="email" name="email" placeholder="email" required> <br>
