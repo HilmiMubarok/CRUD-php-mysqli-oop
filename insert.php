@@ -10,7 +10,8 @@
 	<form method="post">
 		<input type="text" name="nama" placeholder="nama" required> <br>
 		<input type="email" name="email" placeholder="email" required> <br>
-		<textarea name="alamat" rows="10" placeholder="alamat" required></textarea> <br>
+		<textarea name="alamat" rows="10" placeholder="alamat" required>
+	    <textarea name="kelas" rows="10" placeholder="kelas" required></textarea> <br>
 		<input type="submit" name="btn" value="Simpan">
 	</form>
 	<br>
