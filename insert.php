@@ -9,8 +9,7 @@
 	<form method="post">
 		<input type="text" name="nama" placeholder="nama" required> <br>
 		<input type="email" name="email" placeholder="email" required> <br>
-		<textarea name="address" rows="10" placeholder="address" required>
-	    </textarea> <br>
+		<textarea name="address" rows="10" placeholder="address" required></textarea> <br>
 		<input type="submit" name="btn" value="Simpan">
 	</form>
 	<br>
@@ -24,7 +23,7 @@
 			<tr>
 				<th>Nama</th>
 				<th>Email</th>
-				<th>Alamat</th>
+				<th>Address</th>
 				<th>Aksi</th>
 			</tr>
 		</thead>
