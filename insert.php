@@ -9,8 +9,7 @@
 	<form method="post">
 		<input type="text" name="nama" placeholder="nama" required> <br>
 		<input type="email" name="email" placeholder="email" required> <br>
-		<textarea name="address" rows="10" placeholder="address" required>
-	    </textarea> <br>
+		<textarea name="address" rows="10" placeholder="address" required></textarea> <br>
 		<input type="submit" name="btn" value="Simpan">
 	</form>
 	<br>
@@ -24,7 +23,7 @@
 			<tr>
 				<th>Nama</th>
 				<th>Email</th>
-				<th>Alamat</th>
+				<th>Address</th>
 				<th>Aksi</th>
 			</tr>
 		</thead>
@@ -34,7 +33,7 @@
 		<tr>
 			<td><?= $row["nama"]; ?></td>
 			<td><?= $row["email"]; ?></td>
-			<td><?= $row["alamat"]; ?></td>
+			<td><?= $row["address"]; ?></td>
 			<td>
 				<a href="edit.php?<?= md5("id"); ?>=<?= base64_encode($row["id"]); ?>">Edit</a>
 				<a href="hapus.php?<?= md5("id"); ?>=<?= base64_encode($row["id"]); ?>" onclick="return confirm('Yakin Ingin Hapus ?')">Hapus</a>
