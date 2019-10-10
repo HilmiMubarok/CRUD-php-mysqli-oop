@@ -6,12 +6,11 @@
 	<title>Insert</title>
 </head>
 <body>
-	<h3>Insert Data</h3>
 	<form method="post">
 		<input type="text" name="nama" placeholder="nama" required> <br>
 		<input type="email" name="email" placeholder="email" required> <br>
-		<textarea name="alamat" rows="10" placeholder="alamat" required>
-	    <textarea name="kelas" rows="10" placeholder="kelas" required></textarea> <br>
+		<textarea name="address" rows="10" placeholder="address" required>
+	    </textarea> <br>
 		<input type="submit" name="btn" value="Simpan">
 	</form>
 	<br>
